@@ -24,7 +24,7 @@ import { DevelopersComponent } from './components/developers/developers.componen
     MentorsComponent,
     TeamComponent,
     ContactusComponent,
-    DevelopersComponent
+    DevelopersComponent,
   ],
   imports: [
     BrowserModule,
