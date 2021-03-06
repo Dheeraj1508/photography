@@ -12,6 +12,7 @@ import { MentorsComponent } from './components/mentors/mentors.component';
 import { TeamComponent } from './components/team/team.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { DevelopersComponent } from './components/developers/developers.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { DevelopersComponent } from './components/developers/developers.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
