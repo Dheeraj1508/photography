@@ -1,36 +1,52 @@
 
 
-.events-header h1{
-  text-align: center;
-}
-.col{
-  margin: 10px auto;
+h2,h3{
+  margin: 0 0 20px 0;
+  text-transform: none;
+  color: rgba(230, 78, 62, 0.9);
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.5;
 }
 
+.gray {
+  color: #a5a5a5;
+}
 
+.full-events{
+  padding-top: 50px;
+  padding-bottom: 80px;
+  background-color: black;
+}
 
 a {
   text-decoration: none;
 }
 
 figure {
+  margin: 8px auto;
   position: relative;
   display: flex;
   align-items: flex-start;
   justify-content: center;
   width: 290px;
   height: 395px;
-  padding: 20px 20px;
+  padding: 20px;
   background-image: url("http://40.media.tumblr.com/8a47b1587c6294bb1e4e009f2cb3460a/tumblr_nhim06I2Lv1rh6gk6o1_500.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 0.5s ease-in;
+  /* transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1); */
   overflow: hidden;
 }
+
+
 figure:before, figure:after {
+
   position: absolute;
   top: 0;
   left: 0;
@@ -50,16 +66,49 @@ figure:after {
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   overflow: hidden;
 }
-figure:hover {
-  background-size:500%;
+.card__inner {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  opacity: 0;
+  padding: 2rem 1.3rem 2rem 2rem;
+  transition: all 0.4s ease 0s;
 }
-figure:hover:after {
-  content: 	"	➔	";
-  background-color: rgba(49, 45, 46, 0.9);
+
+/* On hovering card opacity of
+  content must be 1*/
+figure:hover .card__inner {
+  opacity: 1;
+}
+
+/* General property for heading
+  and paragraph*/
+.card__inner h2 {
+  margin-top: 1rem;
+}
+.card__inner p {
+  overflow-y: scroll;
+  height: 87%;
+  padding-right: 1rem;
+  font-weight: 200;
+  line-height: 2.5rem;
+  margin-top: 1.5rem;
+}
+/* figure:hover {
+  background-size:500%;
+} */
+/* figure:hover:after {
+
+  background-color: rgba(3, 3, 3, 0.9);
   color: white;
   font-size: 72px;
   z-index: 2;
-}
+} */
 figure:hover .date {
   bottom: -59px;
 }
@@ -114,7 +163,6 @@ figure figcaption h4 > span {
 }
 figure figcaption p {
   font-weight: 500;
-
   margin: 0;
   line-height: 1.5;
 }

@@ -1,6 +1,6 @@
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  opacity: 0.65;
+  opacity: 0.8;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,7 +12,7 @@
   min-height: 100vh;
 }
 
-.bgimg-2 {
+ .bgimg-2 {
   background-image: url("http://40.media.tumblr.com/8a47b1587c6294bb1e4e009f2cb3460a/tumblr_nhim06I2Lv1rh6gk6o1_500.jpg");
   min-height: 400px;
 }
@@ -47,9 +47,9 @@ h3 {
 }
 
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
+/* @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
+    background-attachment: fixed;
   }
 
-}
+} */

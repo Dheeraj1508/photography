@@ -1,10 +1,29 @@
-#contactus{
-  background-color: white;
-  height: auto;
-  display : flex;
+.container{
+
   background-image: url("../../../assets/map1.jpeg");
+  border-radius: 8px;
 
 
+
+}
+
+.main-contactus{
+  padding-top: 50px;
+  padding-bottom: 80px;
+  background-color: black;
+}
+h2,h3{
+  margin: 0 0 20px 0;
+  text-transform: none;
+  color: rgba(230, 78, 62, 0.9);
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.gray {
+  color: #a5a5a5;
 }
 
 .contactinfo{

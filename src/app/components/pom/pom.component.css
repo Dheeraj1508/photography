@@ -1,0 +1,43 @@
+/* .carousel .carousel-item {
+  height: 700px;
+}
+
+
+
+
+.carousel{
+  margin: 30px;
+} */
+.carousel {
+
+  height:500px;
+
+  }
+
+
+  h2,h3{
+    margin: 0 0 20px 0;
+    text-transform: none;
+    color: rgba(230, 78, 62, 0.9);
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.5;
+  }
+
+  .gray {
+    color: #a5a5a5;
+  }
+.full-pom{
+
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.carousel-item ,img {
+
+  height:500px;
+  object-fit: contain;
+
+
+  }

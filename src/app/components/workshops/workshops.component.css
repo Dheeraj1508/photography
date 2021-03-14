@@ -1,11 +1,28 @@
-.workshop-header h1{
-  text-align: center;
-}
+
 img {
   height: auto;
   max-width: 100%;
 }
 
+h2,h3{
+  margin: 0 0 20px 0;
+  text-transform: none;
+  color: rgba(230, 78, 62, 0.9);
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.gray {
+  color: #a5a5a5;
+}
+
+.full-workshop{
+  padding-top: 50px;
+  padding-bottom: 80px;
+  background-color: black;
+}
 a {
   color: #29B6F6;
   text-decoration: none;

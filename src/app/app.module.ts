@@ -13,6 +13,7 @@ import { TeamComponent } from './components/team/team.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
 import { DevelopersComponent } from './components/developers/developers.component';
 import { FormsModule } from '@angular/forms';
+import { PomComponent } from './components/pom/pom.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { FormsModule } from '@angular/forms';
     TeamComponent,
     ContactusComponent,
     DevelopersComponent,
+    PomComponent,
   ],
   imports: [
     BrowserModule,
