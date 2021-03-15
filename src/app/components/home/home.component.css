@@ -1,6 +1,6 @@
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -8,7 +8,7 @@
 
 }
 .bgimg-1 {
-  background-image: url("https://images.unsplash.com/uploads/1411724908903377d4696/2e9b0cb2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8d29tYW4lMjBob2xkaW5nJTIwY2FtZXJhfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80");
+  background-image: url("../../../assets/images/robert-shunev-mS1nlYbq1kA-unsplash.jpg");
   min-height: 100vh;
 }
 

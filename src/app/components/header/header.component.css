@@ -3,9 +3,18 @@
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+
 .navbar.active .nav-link {
   color: #555;
+
 }
+
+nav  a{
+  color: white ;
+}
+nav .navbar-nav li a{
+  color: white ;
+  }
 
 /* .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
@@ -14,10 +23,11 @@
 } */
 .navbar.active .navbar-brand {
   color: #555;
+
 }
 #navbar{
 
   width: 100%;
-  transition: all 0.5s ease-in
+  transition: all 0.4s ease-in
 
 }

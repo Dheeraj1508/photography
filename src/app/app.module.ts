@@ -14,6 +14,7 @@ import { ContactusComponent } from './components/contactus/contactus.component';
 import { DevelopersComponent } from './components/developers/developers.component';
 import { FormsModule } from '@angular/forms';
 import { PomComponent } from './components/pom/pom.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { PomComponent } from './components/pom/pom.component';
     ContactusComponent,
     DevelopersComponent,
     PomComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
