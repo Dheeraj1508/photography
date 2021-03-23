@@ -7,11 +7,11 @@ import * as AOS from 'aos'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'photo';
+  title = 'photographyclub';
 
   ngOnInit(){
     AOS.init()
   }
 
- 
+
 }

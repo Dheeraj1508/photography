@@ -10,7 +10,7 @@ export class GalleryComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    document.getElementById('galle')?.scrollIntoView()
+    document.getElementById('galler')?.scrollIntoView()
   }
 
 }

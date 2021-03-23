@@ -1,13 +1,13 @@
 <nav id="navbar" class="navbar navbar-default navbar-expand-lg navbar-light  fixed-top py-3">
-  <a class="navbar-brand" href="#">Photography Club</a>
-  <button class="navbar-toggler" type="button" data-toggle="dropdown" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand" href="#">Shutpix</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home </a>
+        <a class="nav-link" href="#home">Home </a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="#events">Events</a>
@@ -18,16 +18,12 @@
       </li>
 
       <li class="nav-item active">
-        <a class="nav-link" href="#pom">Pom</a>
+        <a class="nav-link" href="#pom">Pics of the Month</a>
       </li>
 
       <li class="nav-item active">
         <a class="nav-link" href="#workshops">Workshops</a>
       </li>
-      <!-- <li class="nav-item active">
-        <a class="nav-link" href="#">Teams</a>
-      </li> -->
-
       <li class="nav-item active">
         <a class="nav-link" href="#">Goals</a>
       </li>
@@ -36,19 +32,11 @@
       </li>
 
       <li class="nav-item active">
-        <a class="nav-link" href [routerLink]="['/','gallery']">Gallery</a>
+        <a class="nav-link" [routerLink]="['/','gallery']">Gallery</a>
       </li>
 
-
-
-
-
-
-
+      <!-- <button [routerLink]="['/','gallery']" class="btn btn-danger navbar-btn">Gallery</button> -->
 
     </ul>
-
-    <!-- <button [routerLink]="['/','gallery']" class="btn btn-danger navbar-btn">Gallery</button> -->
-
   </div>
 </nav>

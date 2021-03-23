@@ -1,18 +1,19 @@
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  /* opacity: 0.8; */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
 }
+
 .bgimg-1 {
-  background-image: url("../../../assets/images/robert-shunev-mS1nlYbq1kA-unsplash.jpg");
+  background-image: url("https://i2.wp.com/digital-photography-school.com/wp-content/uploads/2019/05/joseph-barrientos-49318-unsplash-e1558728034701.jpg?resize=1500%2C1000&ssl=1");
   min-height: 100vh;
 }
 
- .bgimg-2 {
+
+ /* .bgimg-2 {
   background-image: url("http://40.media.tumblr.com/8a47b1587c6294bb1e4e009f2cb3460a/tumblr_nhim06I2Lv1rh6gk6o1_500.jpg");
   min-height: 400px;
 }
@@ -44,7 +45,7 @@ h3 {
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: #111;
-}
+} */
 
 /* Turn off parallax scrolling for tablets and phones */
 /* @media only screen and (max-device-width: 1024px) {

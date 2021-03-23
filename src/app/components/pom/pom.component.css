@@ -1,13 +1,4 @@
-/* .carousel .carousel-item {
-  height: 700px;
-}
 
-
-
-
-.carousel{
-  margin: 30px;
-} */
 .carousel {
 
   height:500px;
@@ -28,7 +19,7 @@
   .gray {
     color: #a5a5a5;
   }
-.full-pom{
+.complete-poms{
 
   background-color: black;
   padding-top: 50px;

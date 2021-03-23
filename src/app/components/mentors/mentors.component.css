@@ -1,22 +1,16 @@
-/* @import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'; */
 @import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
 @import 'https://fonts.googleapis.com/css?family=Raleway:100,600';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
 
+.complete-mentors{
+  background-color: black;
+  padding-top:50px ;
+  padding-bottom: 80px;
 
-body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  color: #999;
-  background-color: #fff;
 }
 
-h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 ,h4{
   margin: 0 0 20px 0;
   text-transform: none;
   color: rgba(230, 78, 62, 0.9);
@@ -25,6 +19,11 @@ h6 {
   letter-spacing: 1px;
   line-height: 1.5;
 }
+
+.gray {
+  color: #a5a5a5;
+}
+
 
 a:link,
 a:active,
@@ -36,13 +35,6 @@ a:hover{
   color:rgba(255,255,255,0.6);
 }
 
-.gray {
-  color: #a5a5a5;
-}
-
-/* .team{
-  margin:40px;
-} */
 
 .team-member {
   margin: 15px 0;
@@ -147,9 +139,4 @@ a:hover{
   transition: all 0.4s ease-in-out;
 }
 
-#team{
-  background-color: black;
-  padding-top:50px ;
-  padding-bottom: 80px;
 
-}
