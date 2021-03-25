@@ -42,7 +42,8 @@ figure {
 
 
 .card__inner {
-  background-color: rgba(230, 78, 62, 0.9);
+  /* background-color: rgba(230, 78, 62, 0.9); */
+  background-color: #a5a5a5;
   color: black;
   position: absolute;
   top: 0px;
