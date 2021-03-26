@@ -14,9 +14,9 @@ import { DevelopersComponent } from './components/developers/developers.componen
 import { FormsModule } from '@angular/forms';
 import { PomComponent } from './components/pom/pom.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
-// import { AngularFireModule } from '@angular/fire';
-// import { AngularFirestoreModule } from '@angular/fire/firestore'
-// import { environment } from 'src/environments/environment';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore'
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -35,8 +35,8 @@ import { GalleryComponent } from './components/gallery/gallery.component';
   ],
   imports: [
     BrowserModule,
-    // AngularFireModule.initializeApp(environment.firebase),
-    // AngularFirestoreModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule,
     FormsModule,
     AppRoutingModule
   ],
