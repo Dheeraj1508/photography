@@ -16,7 +16,7 @@ import { PomComponent } from './components/pom/pom.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFirestoreModule } from '@angular/fire/firestore'
-import { environment } from 'src/environments/environment';
+import { environment } from 'src/environments/environment.prod';
 
 @NgModule({
   declarations: [
@@ -27,7 +27,7 @@ import { environment } from 'src/environments/environment';
     WorkshopsComponent,
     GoalsComponent,
     MentorsComponent,
-  
+
     ContactusComponent,
     DevelopersComponent,
     PomComponent,
@@ -44,3 +44,4 @@ import { environment } from 'src/environments/environment';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+//nitial exceeded maximum budget. Budget 500.00 kB was not met by 395.70 kB with a total of 895.70 kB.
