@@ -1,0 +1,100 @@
+.bgimg-1, .bgimg-2, .bgimg-3 ,.bgimg-4,.bgimg-5,.bgimg-6,.bgimg-7,.bgimg-8{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bgimg-1 {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/photographyclubiitjammu.appspot.com/o/images%2Fmain.jpg?alt=media&token=10306c18-7069-4402-8640-0622fcbad344");
+  min-height: 100vh;
+}
+
+
+ .bgimg-2 {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/photographyclubiitjammu.appspot.com/o/images%2Fmain1.jpg?alt=media&token=f2e0509a-c11a-4e45-8b2f-1039e9b433e9");
+  min-height: 400px;
+  opacity: 0.8;
+
+}
+
+.bgimg-3 {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/photographyclubiitjammu.appspot.com/o/images%2Fmain5.jpg?alt=media&token=28be7dc4-0d7c-4bb3-b78e-8622a6e85eee");
+  min-height: 400px;
+  opacity: 0.8;
+}
+
+.bgimg-4{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/photographyclubiitjammu.appspot.com/o/images%2Fmain4.jpg?alt=media&token=eb0f9d6a-136c-4e41-b6ea-278299a60e20");
+  min-height: 400px;
+  opacity: 0.8;
+}
+
+.bgimg-5{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/photographyclubiitjammu.appspot.com/o/images%2Fmain3.jpg?alt=media&token=1304ea14-0b09-44b8-84f9-751203663d9c");
+  min-height: 400px;
+  opacity: 0.8;
+}
+
+.bgimg-6{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/photographyclubiitjammu.appspot.com/o/images%2Fmain2.jpg?alt=media&token=27947968-fd6c-4ce0-bb8d-012f293eaac0");
+  min-height: 400px;
+  opacity: 0.8;
+}
+
+.bgimg-7{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/photographyclubiitjammu.appspot.com/o/images%2Fmain6.jpg?alt=media&token=7682072c-f1dc-44ed-8e19-e8b284245120");
+  min-height: 400px;
+  opacity: 0.8;
+}
+
+.bgimg-8{
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/photographyclubiitjammu.appspot.com/o/images%2Fmain7.jpg?alt=media&token=14c7155d-587b-409b-9abd-2026b4bccf5f");
+  min-height: 400px;
+  opacity: 0.8;
+}
+
+.caption-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.caption {
+  font-size: 25px;
+  text-transform: capitalize;
+  padding: 10px;
+  width: fit-content;
+  background-color: #000;
+  color: rgba(230, 78, 62, 0.9);
+  border-radius: 8px;
+
+}
+
+.writer{
+  border-radius: 8px;
+  font-size: 20px;
+  text-transform: capitalize;
+  background-color: #000;
+  padding: 8px;
+  color: #a5a5a5;
+  width: fit-content;
+
+}
+
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+ @media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3,.bgimg-4,.bgimg-5,.bgimg-6 ,.bgimg-7,.bgimg-8{
+    background-attachment: scroll;
+  }
+
+}
+
+

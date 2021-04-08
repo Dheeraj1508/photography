@@ -1,0 +1,32 @@
+.complete-developers{
+  padding-top: 50px;
+  padding-bottom: 80px;
+  background-color: black
+}
+
+.gray {
+  color: #a5a5a5;
+}
+
+
+h2,h3{
+  margin: 0 0 20px 0;
+  text-transform: none;
+  color: rgba(230, 78, 62, 0.9);
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+
+img{
+  border-radius: 50%;
+  width: 150px;
+}
+
+
+p{
+  font-size: 20px;
+  color: rgba(230, 78, 62, 0.9);
+}

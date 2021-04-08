@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,600';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+@import "https://fonts.googleapis.com/css2?family=Iceland&display=swap";
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
